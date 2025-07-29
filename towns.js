@@ -1,7 +1,9 @@
 $(document).ready(function() {
-	$(document).ready(function() { … $('#btnAdd').click(addTown); })
+	
 	$('#btnDelete').click(deleteTown)
 });
+$(document).ready(function()
+ { $('#btnAdd').click(addTown); });
 
 function deleteTown() {
 	let townName = $('#townName').val();
